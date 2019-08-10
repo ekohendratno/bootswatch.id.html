@@ -1,0 +1,48 @@
+/*Navbar*/
+/*Buttons*/
+btn{
+	text-transform: uppercase;
+	border-right: medium none;
+	border-bottom: medium none;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	transition: all 0.2s ease 0s;
+}
+btn btn-default,
+btn btn-primary,
+btn btn-link{
+}
+btn btn-default.disable,
+btn btn-primary.disable,
+btn btn-link.disable{
+}
+
+btn btn-lg{}
+btn btn-sm{}
+btn btn-xs{}
+btn btn-xs{}
+
+btn btn-block{}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.btn-group, .btn-group-justified {
+    table-layout: fixed;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+}
+.btn-group, .btn-group-vertical {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+/*Typography*/
+/*Blockquotes*/
+/*Tables*/
+/*Forms*/
+/*Navs*/
+/*Indicators*/
+/*Progress bars*/
+/*Containers*/
+/*Dialogs*/

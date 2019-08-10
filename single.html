@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootswatch: Paper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="bootstrap.css" media="screen">
+    <link rel="stylesheet" href="bootswatch.css" media="screen">
+    <link rel="stylesheet" href="styled.css" media="screen">
+    <link rel="stylesheet" href="styled-custom.css" media="screen">
+	
+	<script type='text/javascript' src="jquery-1.10.2.js"></script>
+	<script type='text/javascript' src="jquery-1.10.1.ui.js"></script>
+	<script type='text/javascript' src="bootstrap.min.js"></script>
+		
+	<script src="expand.js"></script>
+	<script src="jquery.json.min.js?v=2.2"></script>
+  </head>
+  <body>
+  
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="dashboard.html">CMS INDONESIA</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="dashboard.html"><span class="glyphicon glyphicon-home"></span></a>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-flash"></span> Plugin <span class="badge">3</span></a>
+            </li>
+            <li><a href="#"><span class="glyphicon glyphicon-book"></span> Help and Guide</a>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="img-name" href="profile.html"> <img src="cinqueterre.jpg" class="img-circle" alt="Cinque Terre" width="23" height="23"> Eko Azza</a></li>
+            <li class="dropdown">
+              <a href="#"><span class="glyphicon glyphicon-search"></span></a>
+            </li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="dropsetting"><span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+                <li><a href="#">Pengaturan</a></li>
+                <li><a href="#">Logout</a></li>
+                <li class="divider"></li>
+                <li><a id="link-modal" href="#">Help?</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+	<!--navbar-->
+
+
+    <div class="container">
+    	<div class="row">
+          <div class="col-md-2">
+		  
+              <ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="dashboard.html">Dashboard</a></li>
+    <li class="nav-header">Actions</li>
+    <li class="nav-divider"></li>
+    <li><a href="#">Aksi 1</a></li>
+    <li><a href="#">Aksi 2</a></li>
+    <li><a href="#">Aksi 3</a></li>
+    <li class="nav-header">Tips</li>
+    <li class="nav-divider"></li>
+    <li><span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span></li>
+    <li class="nav-header">Copyright</li>
+    <li><span class="help-block">@CMS.id - 2015</span></li>
+  </ul>
+  
+          </div>
+          <div class="col-md-7">
+		  
+		  <div class="panel panel-default">
+                          <div class="panel-heading"> 
+						  <strong>Forms</strong>
+							  <div class="pull-right btn-toolbar"> 
+							  <div class="btn-group btn-group-justified pull-right">
+
+							  <a href="#" class="btn btn-primary btn-xs">Save</a>
+							  <a href="#" class="btn btn-danger btn-xs">Delete</a>
+							  <a href="#" class="btn btn-default btn-xs">Draf</a>
+  <a href="#" class="btn btn-default btn-xs">Actions</a>
+  <a aria-expanded="false" href="#" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+</div>
+							  
+							  
+							  </div>
+						  
+						  </div>
+                          <div class="panel-body">
+                            
+                            
+                            <form class="form-horizontal">
+  <fieldset>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input class="form-control" id="inputEmail" placeholder="Email" type="text">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-10">
+        <input class="form-control" id="inputPassword" placeholder="Password" type="password">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> Checkbox
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Radios</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios1" value="option1" checked="" type="radio">
+            Option one is this
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input name="optionsRadios" id="optionsRadios2" value="option2" type="radio">
+            Option two can be something else
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label">Selects</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <br>
+        <select multiple="" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+                            
+                            
+                          </div>
+                        </div>
+		  
+		  
+          </div>
+          <div class="col-md-3">
+		  
+
+                    	<div class="panel panel-default">
+                          <div class="panel-heading">List Groups
+							  <div class="pull-right"> 
+							  <a href="#" data-perform="panel-collapse" class="pull-right"><i class="glyphicon glyphicon-resize-small"></i></a> 
+							  </div></div>
+                          <div class="panel-body">
+                            
+                            
+                            <ul class="list-group">
+  <li class="list-group-item">
+    <span class="badge">14</span>
+    Cras justo odio
+  </li>
+  <li class="list-group-item">
+    <span class="badge">2</span>
+    Dapibus ac facilisis in
+  </li>
+  <li class="list-group-item">
+    <span class="badge">1</span>
+    Morbi leo risus
+  </li>
+</ul>
+                            
+                            
+                          </div>
+                        </div>
+
+          </div>
+        </div>
+		<!--container-->
+    </div>
+
+    <script src="bootswatch.js"></script>
+  </body>
+</html>

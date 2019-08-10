@@ -1,0 +1,238 @@
+.form-control,
+.input-sm,
+.form-group-sm .form-control,
+.input-lg,
+.form-group-lg .form-control,
+
+.btn,
+.btn-link,
+
+.btn-lg,
+.btn-group-lg > .btn,
+
+.btn-sm,
+.btn-group-sm > .btn
+
+.btn-xs,
+.btn-group-xs > .btn,
+
+.dropdown-menu,
+
+.btn-group-vertical > .btn:first-child:not(:last-child),
+.btn-group-vertical > .btn:last-child:not(:first-child),
+
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn,
+
+.input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn,
+
+.input-group-addon,
+.input-group-addon.input-sm,
+.input-group-addon.input-lg,
+
+.nav-tabs.nav-justified > li > a,
+.nav-pills > li > a,
+.nav-tabs-justified > li > a,
+
+.navbar-toggle,
+.navbar-toggle .icon-bar,
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu,
+.breadcrumb,
+.pagination,
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span,
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span,
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span,
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span,
+
+.pager li > a,
+.pager li > span,
+
+.label,
+.badge,
+.container .jumbotron,
+.container-fluid .jumbotron,
+.thumbnail,
+.alert,
+.progress,
+.list-group-item:first-child,
+.list-group-item:last-child,
+.panel,
+.panel-heading,
+.panel-footer,
+.panel > .list-group .list-group-item,
+.panel > .panel-collapse > .list-group .list-group-item,
+.panel > .list-group:first-child .list-group-item:first-child,
+.panel > .panel-collapse > .list-group:first-child .list-group-item:first-child,
+.panel > .list-group:last-child .list-group-item:last-child,
+.panel > .panel-collapse > .list-group:last-child .list-group-item:last-child,
+.panel > .table:first-child,
+.panel > .table-responsive:first-child > .table:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:first-child,
+.panel > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child td:last-child,
+.panel > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > thead:first-child > tr:first-child th:last-child,
+.panel > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table-responsive:first-child > .table:first-child > tbody:first-child > tr:first-child th:last-child,
+.panel > .table:last-child,
+.panel > .table-responsive:last-child > .table:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:first-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child td:last-child,
+.panel > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tbody:last-child > tr:last-child th:last-child,
+.panel > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel > .table-responsive:last-child > .table:last-child > tfoot:last-child > tr:last-child th:last-child,
+.panel-group .panel,
+.well,
+.well-lg,
+.well-sm,
+.modal-content,
+.tooltip-inner,
+.popover,
+.popover-title,
+.carousel-indicators li,
+input[type="checkbox"]:after,
+.checkbox input[type="checkbox"]:after,
+.checkbox-inline input[type="checkbox"]:after,
+.progress-bar:last-child,
+.panel{
+border-radius:0;
+}
+
+
+
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li > a{}
+  .nav-tabs-justified > li > a{}
+  .navbar {}
+}
+
+.panel-default > .panel-heading .pull-right .pull-right{
+	padding-left:5px;
+	padding-right:5px;
+}
+.panel-quick{
+	margin:0;
+	padding:0;
+	background: #fff;
+}
+
+.panel-quick  > .col-md-2,.panel-quick  > .col-md-3,.panel-quick  > .col-md-4{
+	margin:0;
+	padding:10px;
+}
+
+.panel-quick  > .col-md-3 ul,.panel-quick  > .col-md-4 ul{
+	margin-left:-25px;
+}
+
+.panel-quick  > .col-md-3.panel-quick-start{
+	display:block;
+	text-align:center;
+}
+
+@media (max-width: 990px) {
+	.panel-quick > .col-md-3.panel-quick-start{
+		text-align:left;
+	}
+	.panel-quick > .col-md-3.panel-quick-start .clearfix.clr2{
+		clear:none;
+		display:none;
+	}
+}
+
+.panel-quick  > .col-md-2.panel-quick-second{
+}
+.panel-quick  > .col-md-3.panel-quick-three{
+}
+.panel-quick  > .col-md-4.panel-quick-four{
+}
+
+.empty-container {
+	border:1px dashed #fff;
+	min-height:350px;
+	height:100%;
+}
+
+.column{
+	padding:0;
+	margin:0;
+}
+.column .dragbox{
+	position:static; /*/---------/*/
+	margin-bottom:10px;	
+}
+
+.column .placeholder{
+	border:dashed 1px #fff !important;
+	background:url('ajax-loader-white.gif') no-repeat center;
+	margin-bottom:10px;	
+}
+
+/* loading
+------------------------------------------------------------------------- */
+#loading_ajax {
+	position: fixed;
+	display: none;
+	width: 100%;
+	z-index: 50010;
+}
+#loading_ajax > div {
+	width:120px;
+	margin:0 auto;
+	line-height:30px;
+	height:30px;
+	text-align:center;
+	background: rgba(0,0,0,0.7);
+	color:#fff;
+	
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	
+}
+#loading_ajax > div > img {
+	vertical-align: text-bottom;
+	margin-right: 2px;
+	top: 2px;
+	position: relative;
+}
